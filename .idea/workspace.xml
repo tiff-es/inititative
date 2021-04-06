@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c948770-9d1a-4bd4-a6a7-595ddd5e6201" name="Default Changelist" comment="" />
+    <list default="true" id="9c948770-9d1a-4bd4-a6a7-595ddd5e6201" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/actionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/contentful.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/dataReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/primaryReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/rootReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,8 +49,18 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/redux/actions" />
+      <recent name="$PROJECT_DIR$/src/redux" />
+      <recent name="$PROJECT_DIR$/src/redux/reducers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.rootReducer.js">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="rootReducer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/redux/reducers/rootReducer.js" working-dir="$PROJECT_DIR$/src/redux/reducers">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -42,6 +73,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.rootReducer.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -66,11 +102,29 @@
       <option name="presentableId" value="Default" />
       <updated>1617672968807</updated>
       <workItem from="1617672971948" duration="696000" />
-      <workItem from="1617687507779" duration="566000" />
+      <workItem from="1617687507779" duration="9175000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="469" height="258" key="GridCell.Tab.0.bottom" timestamp="1617693734052">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="469" height="258" key="GridCell.Tab.0.bottom/0.25.1920.1055@0.25.1920.1055" timestamp="1617693734052" />
+    <state width="469" height="258" key="GridCell.Tab.0.center" timestamp="1617693734052">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="469" height="258" key="GridCell.Tab.0.center/0.25.1920.1055@0.25.1920.1055" timestamp="1617693734052" />
+    <state width="469" height="258" key="GridCell.Tab.0.left" timestamp="1617693734051">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="469" height="258" key="GridCell.Tab.0.left/0.25.1920.1055@0.25.1920.1055" timestamp="1617693734051" />
+    <state width="469" height="258" key="GridCell.Tab.0.right" timestamp="1617693734052">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="469" height="258" key="GridCell.Tab.0.right/0.25.1920.1055@0.25.1920.1055" timestamp="1617693734052" />
   </component>
 </project>
