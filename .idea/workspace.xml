@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c948770-9d1a-4bd4-a6a7-595ddd5e6201" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/actionCreators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/contentful.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/dataReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/primaryReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/rootReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="9c948770-9d1a-4bd4-a6a7-595ddd5e6201" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617672968807</updated>
       <workItem from="1617672971948" duration="696000" />
-      <workItem from="1617687507779" duration="9175000" />
+      <workItem from="1617687507779" duration="9571000" />
     </task>
     <servers />
   </component>
@@ -110,6 +96,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1288" y="490" key="Github.Dialog.Accounts.Choose" timestamp="1617697793958">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="1288" y="490" key="Github.Dialog.Accounts.Choose/0.25.1920.1055@0.25.1920.1055" timestamp="1617697793958" />
     <state width="469" height="258" key="GridCell.Tab.0.bottom" timestamp="1617693734052">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
@@ -126,5 +116,9 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state width="469" height="258" key="GridCell.Tab.0.right/0.25.1920.1055@0.25.1920.1055" timestamp="1617693734052" />
+    <state x="1040" y="285" key="Vcs.Push.Dialog.v2" timestamp="1617697779606">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="1040" y="285" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1617697779606" />
   </component>
 </project>

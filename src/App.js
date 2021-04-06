@@ -2,11 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import { connect, useDispatch } from "react-redux";
 import { useEffect } from "react";
-import { fetchPosts } from "./redux/actions/actionCreators";
+import { contentfulFetch } from "./redux/actions/actionCreators";
 
 export function App() {
     const dispatch = useDispatch()
-dispatch(fetchPosts())
+dispatch(contentfulFetch())
 
 
     return (
