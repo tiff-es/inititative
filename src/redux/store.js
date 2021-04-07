@@ -1,14 +1,24 @@
-import { createStore, applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import rootReducer from './reducers/rootReducer'
-// import { middleware as contentful } from './contentful';
 import promise from 'redux-promise';
+import { applyMiddleware, createStore } from 'redux';
+import { middleware as contentful } from '../redux/reducers/contentful';
 
-const composedEnhancer = composeWithDevTools(
+import thunk from 'redux-thunk'
+
+
+const enhancers = []
+const middleware = [
+    thunk,
+    contentful,
+    promise]
+const composedEnhancers = composeWithDevTools(
     // Add whatever middleware you actually want to use here
-    applyMiddleware(promise)
-    // other store enhancers if any
+    applyMiddleware(...middleware),
+    ...enhancers
+// other store enhancers if any
 )
 
-const store = createStore(rootReducer, composedEnhancer)
-export default store
+export const configureStore = createStore(
+ rootReducer,composedEnhancers)
+

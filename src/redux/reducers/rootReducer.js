@@ -1,12 +1,9 @@
 import { combineReducers } from 'redux'
-
-// import contentful from '../contentful'
 import dataReducer from "./dataReducer";
+import { reducer as contentful } from './contentful';
 
 const rootReducer = combineReducers({
-    // Define a top-level state field named `todos`, handled by `todosReducer`
-    // contentful: contentful,
-    // primaryReducer: primaryReducer,
+    contentful,
     dataReducer: dataReducer
 })
 export default rootReducer

@@ -1,3 +1,4 @@
+
 export const CONTENTFUL_FETCH = 'CONTENTFUL_FETCH';
 export const API_BASE_URL = 'https://cdn.contentful.com';
 export const API_SPACE_ID = 'irj8wjjmbwxp';
