@@ -1,10 +1,12 @@
 import { combineReducers } from 'redux'
 import dataReducer from "./dataReducer";
 import { reducer as contentful } from './contentful';
+import { connectRouter } from 'connected-react-router'
 
-const rootReducer = combineReducers({
+const rootReducer = (history) => combineReducers({
     contentful,
-    dataReducer: dataReducer
+    dataReducer: dataReducer,
+    routing: connectRouter(history)
 })
 export default rootReducer
 

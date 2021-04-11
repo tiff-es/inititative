@@ -5,25 +5,25 @@ import About from "./components/About";
 import { connect, useDispatch } from "react-redux";
 import React, { useEffect } from "react";
 import { contentfulFetch } from "./redux/actions/actionCreators";
-import { Route, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { actions } from './redux/reducers/contentful';
-export function App() {
-    const dispatch = useDispatch()
+import { ConnectedRouter} from 'connected-react-router'
+import { Switch, Route} from 'react-router'
+
+const App = ({history, context})   =>
+{ const dispatch = useDispatch()
 dispatch(contentfulFetch())
     dispatch(actions.sync());
-
-
     return (
-        <div className="App">
-            <header className="App-header">
-                <Link to="/">Home</Link>
-                <Link to="/about-us">About</Link>
-            </header>
-            <main>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/about-us" component={About} />
-            </main>
-        </div>
+        <ConnectedRouter history={history} context={context}>
+            <>
+            <Switch>
+                <Route exact path={'/'} component={Home}/>
+                <Route path={'/about-us'} component={About}/>
+            </Switch>
+            </>
+        </ConnectedRouter>
+
     );
 }
 

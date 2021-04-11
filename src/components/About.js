@@ -1,4 +1,5 @@
 import React from 'react'
+import {connect} from "react-redux";
 
 const About = () => (
     <div>
@@ -6,4 +7,4 @@ const About = () => (
         <p>Hello Medium!</p>
     </div>
 )
-export default About()
+export default connect(null)(About)
