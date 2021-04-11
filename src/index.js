@@ -4,8 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider, ReactReduxContext } from "react-redux";
-import  configureStore,{ history} from "./redux/store";
-
+import  configureStore, {history} from "./redux/store";
 // import {actions} from "./redux/reducers/contentful";
 
 

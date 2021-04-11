@@ -4,9 +4,9 @@ import { reducer as contentful } from './contentful';
 import { connectRouter } from 'connected-react-router'
 
 const rootReducer = (history) => combineReducers({
+    router: connectRouter(history),
     contentful,
-    dataReducer: dataReducer,
-    routing: connectRouter(history)
+    dataReducer: dataReducer
 })
 export default rootReducer
 

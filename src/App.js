@@ -1,14 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from "./components/Home";
-import About from "./components/About";
-import { connect, useDispatch } from "react-redux";
+
 import React, { useEffect } from "react";
+import './App.css';
+
+import { connect, useDispatch } from "react-redux";
 import { contentfulFetch } from "./redux/actions/actionCreators";
-import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types'
 import { actions } from './redux/reducers/contentful';
 import { ConnectedRouter} from 'connected-react-router'
-import { Switch, Route} from 'react-router'
+import routes from "./routes";
 
 const App = ({history, context})   =>
 { const dispatch = useDispatch()
@@ -16,12 +15,7 @@ dispatch(contentfulFetch())
     dispatch(actions.sync());
     return (
         <ConnectedRouter history={history} context={context}>
-            <>
-            <Switch>
-                <Route exact path={'/'} component={Home}/>
-                <Route path={'/about-us'} component={About}/>
-            </Switch>
-            </>
+            {routes}
         </ConnectedRouter>
 
     );
@@ -39,6 +33,8 @@ dispatch(contentfulFetch())
 //         }
 //     };
 // }
+App.propTypes = {
+    history: PropTypes.object
+}
 
-
-export default connect(null)(App)
+export default App
