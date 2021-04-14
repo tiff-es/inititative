@@ -39,21 +39,21 @@ Education
 * Introduce potentiators with a focus on reducing harm and lessening neurotoxicity 
 * Addiction treatment resources such as non 12 step meetings  
 
-## Destigmatizing Addicts (as well as Recreational Users)
+### Destigmatizing Addicts (as well as Recreational Users)
 * Inspire empathy
 * Educate on policy reform and the fatal consequences of prohibition
 
-## Data collection via peer surveys 
+### Data collection via peer surveys 
 * Surveys to wide range of communities with special attention on trans people
 * Not only drug related, could be about access to  psychiatric care, gender affirming care, etc
 * Use surveys to improve reach and message
 
-## Mental Health Awareness and Coping Skills 
+### Mental Health Awareness and Coping Skills 
 * Bite sized coping skills (start with DBT skills) to help cope with their pain, possibly use less, or make healthier choices in regards to self harm / SI
 * General education on different diagnoses to lessen stigma and humanize
 * Referrals to local care and crisis lines
 
-## Content catered to transspectrum people 
+### Content catered to transspectrum people 
 * Education, resources, support
 * Studies that aren't usually seen like different ROAs of progesterone's effectiveness  (created by doctor but not published in traditional academic paper)
 * HRT education (injection methods, etc)
