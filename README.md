@@ -23,8 +23,14 @@ Software Engineer,
 Civil Rights-Harm Reduction-Trans Rights Activist
 
 ---
+### Brief Initiative Summary
+Essentially a harm reduction/'grassroots' peer data interpretation/ activism initiative focusing on a mix of frequently stigmatized/misunderstood subjects. Core principals:
+* Stigma-free science-driven education about pharmacology with an emphasis on harm reduction, criminalization reform, access to local resources such as needle exchanges, Narcan, and addiction treatment resources
+* Peer survey data intake/interpretation/publication, focusing on gathering data points on under-represented marginalized groups
+* Simplifying psychiatric coping skills ('Bite-sized DBT, CBT')
+* Transgender-Spectrum focused activism, including resources for access to gender-affirming care, providing education to fight dangerous misconceptions utilizing both peer-reviewed academic studies as well as the trans community via data collection and interpretation
+
 ## Overview: 
-### Web initiative based around these core principles:
 ### Harm reduction
 * Local resources like needle banks, methadone clinics, narcan delivery
 Education
