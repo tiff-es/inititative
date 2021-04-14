@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+ <img width='300px' src="https://lh3.googleusercontent.com/pw/ACtC-3eL9FsncUFUdmAWA6DrkjUXHkAZyWIZMWWogORhN5bXjMLH6DJq0ICrvkqoHFFvwpTEWi2XIoPBm7-H5fev3W_HyNuG2e2iWmlZNNsNMB23T3CeVVKtfAoSRisBfpH7AMLPvW2CNykBS7lszVKz-OtJMQ=s1680-no?authuser=0"/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+---
+  *Temp working title*
 
-### `yarn start`
+# Harm Reduction/Activism Initiative:  
+Pharmacology/Science Driven Education, Peer Survey Data Intake/Interpretation/Publication, Destigmatization of Recreational Drug Use and Addiction, Simplifying Psychiatric Skills, and Transgender-Spectrum Focused Research/Resources
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Overview](#overview)
+- [Technologies](#technologies)
+- [License](#license)
+- [Contribution](#contribution)
 
-### `yarn build`
+---
+## Lead Developer/Researcher:
+### Tiffany Abraham 
+Independent Psychopharmacology- Psychosociology Researcher,
+Software Engineer, 
+Civil Rights-Harm Reduction-Trans Rights Activist
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+## Overview: 
+### Web initiative based around these core principles:
+### Harm reduction
+* Local resources like needle banks, methadone clinics, narcan delivery
+Education
+* Simplifying pharmacology to non-academia,  educate users on drug MOAs, contraindicated interactions(black box warning for stuff like opiates and benzos, MDMA and SRIs), and introduce the concept of diminishing or declining returns past a certain dose aka less is more, more dosing doesn't mean more high 
+* Explain concepts like dopamine depletion and adrendal fatigue of binges of amphetamine/derivative phenylthamines
+* Introduce potentiators with a focus on reducing harm and lessening neurotoxicity 
+* Addiction treatment resources such as non 12 step meetings  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Destigmatizing Addicts (as well as Recreational Users)
+* Inspire empathy
+* Educate on policy reform and the consequences of prohibition
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Data collection via peer surveys 
+* Surveys to wide range of communities with special attention on trans people
+* Not only drug related, could be about access to  psychiatric care, gender affirming care, etc
+* Use surveys to improve reach and message
+## Mental Health Awareness and Coping Skills 
+* Bite sized coping skills (start with DBT skills) to help cope with their pain, possibly use less, or make healthier choices in regards to self harm / SI
+* General education on different diagnoses to lessen stigma and humanize
+* Referrals to local care and crisis lines
 
-### `yarn eject`
+## Content catered to transspectrum people 
+* Education, resources, support
+* Studies that aren't usually seen like rectal progesterone's effectiveness  (created by doctor but not published in traditional academic paper)
+* HRT education (injection methods, etc)
+* Online and local Support groups
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Features:
+* TBD
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Technologies: 
+### Front-end:
+#### JavaScript Frameworks:
+* React
+* Redux
+#### CMS/CDN
+* Contentful
+#### Hosting
+* Netlify
+#### CSS Frameworks:
+* TBD
+#### Node Packages and Dependencies Installed:
+* redux Thunk
+* connected-react-router
+* react-router
+* react-router-dom
+* axios
+* contentful
+* contentful-redux
+* redux-promise
+* redux-devtools-extension
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Contribution: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contribution is welcome and strongly encouraged.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### Front-end Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+> now install npm dependencies
 
-### `yarn build` fails to minify
+```shell
+$ npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+---
+
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+
+
