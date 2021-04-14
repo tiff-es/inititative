@@ -1,8 +1,6 @@
- <img width='300px' src="https://lh3.googleusercontent.com/pw/ACtC-3eL9FsncUFUdmAWA6DrkjUXHkAZyWIZMWWogORhN5bXjMLH6DJq0ICrvkqoHFFvwpTEWi2XIoPBm7-H5fev3W_HyNuG2e2iWmlZNNsNMB23T3CeVVKtfAoSRisBfpH7AMLPvW2CNykBS7lszVKz-OtJMQ=s1680-no?authuser=0"/>
 
 
 
----
   *Temp working title*
 
 # Harm Reduction/Activism Initiative:  
