@@ -28,19 +28,20 @@ Civil Rights-Harm Reduction-Trans Rights Activist
 ### Harm reduction
 * Local resources like needle banks, methadone clinics, narcan delivery
 Education
-* Simplifying pharmacology to non-academia,  educate users on drug MOAs, contraindicated interactions(black box warning for stuff like opiates and benzos, MDMA and SRIs), and introduce the concept of diminishing or declining returns past a certain dose aka less is more, more dosing doesn't mean more high 
+* Simplifying pharmacology to non-academia,  educate users on drug MOAs, contraindicated interactions(black box warning for interactions like opiates and benzodiazapines, MDMA and SRIs), and introduce the concept of diminishing or declining returns past a certain dose
 * Explain concepts like dopamine depletion and adrendal fatigue of binges of amphetamine/derivative phenylthamines
 * Introduce potentiators with a focus on reducing harm and lessening neurotoxicity 
 * Addiction treatment resources such as non 12 step meetings  
 
 ## Destigmatizing Addicts (as well as Recreational Users)
 * Inspire empathy
-* Educate on policy reform and the consequences of prohibition
+* Educate on policy reform and the fatal consequences of prohibition
 
 ## Data collection via peer surveys 
 * Surveys to wide range of communities with special attention on trans people
 * Not only drug related, could be about access to  psychiatric care, gender affirming care, etc
 * Use surveys to improve reach and message
+
 ## Mental Health Awareness and Coping Skills 
 * Bite sized coping skills (start with DBT skills) to help cope with their pain, possibly use less, or make healthier choices in regards to self harm / SI
 * General education on different diagnoses to lessen stigma and humanize
@@ -48,7 +49,7 @@ Education
 
 ## Content catered to transspectrum people 
 * Education, resources, support
-* Studies that aren't usually seen like rectal progesterone's effectiveness  (created by doctor but not published in traditional academic paper)
+* Studies that aren't usually seen like different ROAs of progesterone's effectiveness  (created by doctor but not published in traditional academic paper)
 * HRT education (injection methods, etc)
 * Online and local Support groups
 
