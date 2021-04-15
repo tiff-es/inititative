@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c948770-9d1a-4bd4-a6a7-595ddd5e6201" name="Default Changelist" comment="" />
+    <list default="true" id="9c948770-9d1a-4bd4-a6a7-595ddd5e6201" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SplashPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SplashPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/actionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/contentful.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/contentful.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/dataReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/dataReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/selectors/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/selectors/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,8 +42,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -91,7 +107,7 @@
       <updated>1617672968807</updated>
       <workItem from="1617672971948" duration="696000" />
       <workItem from="1617687507779" duration="20970000" />
-      <workItem from="1618034742954" duration="23591000" />
+      <workItem from="1618034742954" duration="50408000" />
     </task>
     <servers />
   </component>
@@ -99,6 +115,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1040" y="215" key="#ESLint" timestamp="1618517703579">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="1040" y="215" key="#ESLint/0.25.1920.1055@0.25.1920.1055" timestamp="1618517703579" />
+    <state x="849" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618512872247">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="849" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1618512872247" />
     <state x="1288" y="490" key="Github.Dialog.Accounts.Choose" timestamp="1618111137829">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
@@ -119,18 +143,22 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state width="536" height="258" key="GridCell.Tab.0.right/0.25.1920.1055@0.25.1920.1055" timestamp="1617771824997" />
-    <state x="1040" y="285" key="Vcs.Push.Dialog.v2" timestamp="1618382015132">
+    <state x="938" y="188" key="SettingsEditor" timestamp="1618513054943">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="1040" y="285" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1618382015132" />
+    <state x="938" y="188" key="SettingsEditor/0.25.1920.1055@0.25.1920.1055" timestamp="1618513054943" />
+    <state x="1040" y="285" key="Vcs.Push.Dialog.v2" timestamp="1618382147593">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="1040" y="285" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1618382147593" />
     <state x="1105" y="255" key="run.anything.popup" timestamp="1618038388208">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="1105" y="255" key="run.anything.popup/0.25.1920.1055@0.25.1920.1055" timestamp="1618038388207" />
-    <state x="1038" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1618110862759">
+    <state x="1038" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1618452455156">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="1038" y="259" width="670" height="676" key="search.everywhere.popup/0.25.1920.1055@0.25.1920.1055" timestamp="1618110862759" />
+    <state x="1038" y="259" width="670" height="676" key="search.everywhere.popup/0.25.1920.1055@0.25.1920.1055" timestamp="1618452455156" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -140,6 +168,12 @@
           <line>9</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/SplashPage.js</url>
+          <line>20</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { push } from 'connected-react-router'
 import { bindActionCreators } from 'redux'
-import { connect, useDispatch } from 'react-redux'
+import { connect, useDispatch, useSelector } from 'react-redux'
 import SplashPage from "./SplashPage";
 import { Link } from "react-router-dom";
 const Home = () => {

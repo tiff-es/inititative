@@ -1,40 +1,41 @@
 
-import React, { useEffect } from "react";
+import React, {  useState } from "react";
 import './App.css';
 
 import { connect, useDispatch } from "react-redux";
 import { contentfulFetch } from "./redux/actions/actionCreators";
 import PropTypes from 'prop-types'
-import { actions } from './redux/reducers/contentful';
+import { actions, selectors } from './redux/reducers/contentful';
 import { ConnectedRouter} from 'connected-react-router'
 import routes from "./routes";
+import { initialState } from "contentful-redux/distribution/reducer";
 
 const App = ({history, context})   =>
-{ const dispatch = useDispatch()
-dispatch(contentfulFetch())
-    dispatch(actions.sync());
+{
+
+    const dispatch = useDispatch()
+
+  dispatch(actions.sync())
+    dispatch(contentfulFetch())
+
+
     return (
+
         <ConnectedRouter history={history} context={context}>
             {routes}
-        </ConnectedRouter>
 
+        </ConnectedRouter>
     );
 }
+// const mapStateToProps = (state) => ({
+//     getEntries: state.getEntriesByType.id
+// })
 
-//
-//
-//
-//     const mapDispatchToProps = dispatch => {
-//         return {
-//             fetchPosts: (posts) => dispatch(changeMonth(monthId)),
-//             changeFromDate: (date) => dispatch(changeFromDate(date)),
-//             changeToDate: (date) => dispatch(changeToDate(date)),
-//             changeRadio: (val) => dispatch(changeRadioDatepicker(val)),
-//         }
-//     };
-// }
+
+
+
+
 App.propTypes = {
     history: PropTypes.object
 }
-
 export default App

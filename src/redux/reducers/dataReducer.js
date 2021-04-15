@@ -1,4 +1,4 @@
-import { CONTENTFUL_FETCH } from '../actions/actionTypes';
+import { CONTENTFUL_FETCH, SET_ENTRIES } from '../actions/actionTypes';
 const INITIAL_STATE = { all: [],
     status: 'Initial state, yet to fetch from CMS'
 };
@@ -6,7 +6,9 @@ const INITIAL_STATE = { all: [],
 export default function (state = INITIAL_STATE, action) {
     switch(action.type) {
         case CONTENTFUL_FETCH:
-            return { ...state, all: action.payload.data, status: 'Contentful fetch dispatched' };
+            return { ...state, harmReductionQuery: action.payload, status: 'Contentful fetch dispatched' }
+        case SET_ENTRIES:
+            return {...state, fetchedEntries: action.payload}
         default:
             return state;
     }
