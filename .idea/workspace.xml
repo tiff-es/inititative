@@ -3,17 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9c948770-9d1a-4bd4-a6a7-595ddd5e6201" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SplashPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SplashPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/actionCreators.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/contentful.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/contentful.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/dataReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/dataReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/selectors/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/selectors/selectors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +101,7 @@
       <updated>1617672968807</updated>
       <workItem from="1617672971948" duration="696000" />
       <workItem from="1617687507779" duration="20970000" />
-      <workItem from="1618034742954" duration="50408000" />
+      <workItem from="1618034742954" duration="59287000" />
     </task>
     <servers />
   </component>
@@ -147,10 +141,10 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="938" y="188" key="SettingsEditor/0.25.1920.1055@0.25.1920.1055" timestamp="1618513054943" />
-    <state x="1040" y="285" key="Vcs.Push.Dialog.v2" timestamp="1618382147593">
+    <state x="1040" y="285" key="Vcs.Push.Dialog.v2" timestamp="1618528301467">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="1040" y="285" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1618382147593" />
+    <state x="1040" y="285" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1618528301467" />
     <state x="1105" y="255" key="run.anything.popup" timestamp="1618038388208">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
@@ -170,10 +164,16 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/SplashPage.js</url>
-          <line>20</line>
+          <url>file://$PROJECT_DIR$/src/routes.js</url>
+          <line>17</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/SplashPage.js</url>
+          <line>22</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -23,9 +23,9 @@ const composeEnhancers = composeWithDevTools(
 // other store enhancers if any
 )
 
-export default function configureStore(preloadedState) {
+ const configureStore = (preloadedState) => {
     const store = createStore(
  rootReducer(history),preloadedState, composeEnhancers)
     return store
 }
-
+export default configureStore

@@ -5,9 +5,9 @@ import { push } from 'connected-react-router'
  class SplashPage extends React.Component {
     constructor(props) {
         super(props);
-
     }
-     render(){
+     render(){    console.log(this.props)
+
 
          return(
             <div className='splashPage-container-div'>
@@ -23,4 +23,4 @@ import { push } from 'connected-react-router'
     }
 }
 
-export default connect(null, {push})(SplashPage)
+export default connect(null )(SplashPage)

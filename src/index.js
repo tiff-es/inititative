@@ -13,7 +13,8 @@ const rootElement = document.getElementById("root");
 
 ReactDOM.render(
   <Provider  store={store}>
-      <App context={ReactReduxContext} history={history}/>
+
+      <App  context={ReactReduxContext} history={history}/>
   </Provider>,
   rootElement
 );

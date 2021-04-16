@@ -1,41 +1,58 @@
 
-import React, {  useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import './App.css';
 
-import { connect, useDispatch } from "react-redux";
-import { contentfulFetch } from "./redux/actions/actionCreators";
+import { connect, useDispatch, useSelector, useStore } from "react-redux";
+import { contentfulFetch, SetEntries } from "./redux/actions/actionCreators";
 import PropTypes from 'prop-types'
 import { actions, selectors } from './redux/reducers/contentful';
 import { ConnectedRouter} from 'connected-react-router'
 import routes from "./routes";
+import { getEntries } from "./redux/selectors/selectors";
 import { initialState } from "contentful-redux/distribution/reducer";
+import { createSelector } from "reselect";
+import store from "./redux/store";
+import * as contentful from "contentful";
+class App extends React.Component {
+    componentWillMount() {
+        this.props.sync()
+        this.props.contentfulFetch()
 
-const App = ({history, context})   =>
-{
+    }
 
-    const dispatch = useDispatch()
+    componentDidMount(){
+    }
 
-  dispatch(actions.sync())
-    dispatch(contentfulFetch())
+    render() {
+        let {history, context} = this.props;
 
 
-    return (
 
-        <ConnectedRouter history={history} context={context}>
-            {routes}
 
-        </ConnectedRouter>
-    );
+        return (
+
+            <ConnectedRouter harmReductionData={this.props.harmReductionData}  harmReductionQuery={this.props.harmReductionQuery} contentfulState={this.props.contentfulState}  history={history} context={context}>
+                {routes(this.props)}
+
+            </ConnectedRouter>
+        );
+    }
 }
-// const mapStateToProps = (state) => ({
-//     getEntries: state.getEntriesByType.id
-// })
+
+export const mapStateToProps = (state, ownProps) => ({
+    harmReductionQuery: state.dataReducer.harmReductionQuery,
+    harmReductionData: state.contentful.contentTypes[0],
+    contentfulState: state.contentful,
+    ...ownProps
+})
 
 
+const mapDispatchToProps = dispatch => ({
+   sync: () => dispatch(actions.sync()),
+    contentfulFetch: () => dispatch(contentfulFetch()),
+    selectContentTypes: () => dispatch(selectors.contentTypes())
 
 
+});
 
-App.propTypes = {
-    history: PropTypes.object
-}
-export default App
+export default connect(mapStateToProps, mapDispatchToProps, null)(App)
